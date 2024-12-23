@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+    background-color: hsl(0, 4%, 5%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    position: relative;
+    width: 250px;
+    padding: 12px;
+    border-radius: 7px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    top: -7px;
+    margin-bottom: 15px;
+    box-sizing: content-box;
+    left: 19px;
+    font-weight: 700;
+    font-size: medium;
+}   
+
+.git:active {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 4%, 5%);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    /* height: 50vh; */
+}
+.container {
+    background-color: rgb(25, 24, 24);
+    min-width: 310px;
+    max-height: 510px;
+    border-radius: 11px;
+    padding: 28px 20px;
+    margin: auto;
+}
+
+img {
+    max-width: 80px;
+    position: relative;
+    top: -15px;
+    left: 110px;
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+p {
+    color:  hsl(0, 24%, 91%);
+    text-align: center;
+}
+
+.london {
+    color: hsl(75, 94%, 57%);
+    position: relative;
+    top: -30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#jessica {
+    font-size: x-large;
+    position: relative;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 700;
+    top: -15px;
+}
+
+#front {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: -15px;
+    font-weight: 50;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        max-width: 330px;
+        max-height: 500px;
+    }
+
+    button{
+        width: 250px;
+        position: relative;
+        left: 21px;
+        right: inherit;
+    }
+
+    img {
+        position: relative;
+        left: 110px;
+    }
+
+}
+
+/* @media screen and (max-width: 375px) {
+    .git_b{
+        position: relative;
+        /* right: -900px; */
+        /* left: -2px;
+    }
+} */ 
